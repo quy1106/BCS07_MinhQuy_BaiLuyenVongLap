@@ -7,6 +7,7 @@
     tong+=i;
     i++;
    }
+   i=i-1;
    document.getElementById('ketQua').innerHTML ='Số cần tìm là: ' + i;
 }
 //  Bài 2: Viết chương trình nhập vào 2 sô x, n tính tổng: S(n)= x + x^2 + x^3 + ... + x^n (Sử dụng vòng lặp và hàm)
